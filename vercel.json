@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "cleanUrls": true,
+  "framework": "vite",
+  "rewrites": [
+    {
+      "source": "/api/subscribe",
+      "destination": "/api/subscribe.ts"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
